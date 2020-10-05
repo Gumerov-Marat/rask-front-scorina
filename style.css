@@ -1,0 +1,197 @@
+
+body {
+  width: 100%;
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  color: #373737;
+  background: rgb(246, 245, 251);
+  background: radial-gradient(circle, rgba(246, 245, 251, 1) 0%, rgba(186, 186, 226, 1) 100%, rgba(9, 9, 121, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 70%;
+  height: 10vh;
+  margin: 0 auto;
+  margin-top: 10px;
+   border-radius: 10px 10px 10px 10px;
+   -moz-border-radius: 10px 10px 10px 10px;
+   -webkit-border-radius: 10px 10px 10px 10px;
+   background: rgb(246, 245, 251);
+   border: 0.5px solid #ebe1eb;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.main {
+  width: 70%;
+  height: 130vh;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  background: rgb(246, 245, 251);
+  border: 0.5px solid #ebe1eb;
+}
+
+/* main__persone */
+.main__persone {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px;
+}
+
+.main__photo {
+  width: 140px;
+  margin: 10px;
+}
+
+.main__info {
+  padding-right: 300px;
+  margin: 20px;
+}
+
+.main__date {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.main__element {
+  display: flex;
+  margin: 3px 10px;
+}
+
+.main__date img {
+  width: 20px;
+  height: 20px;
+  color: black
+}
+
+.main__date span {
+  margin-left: 20px;
+}
+
+/*main__education*/
+
+.main__education {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 40px;
+}
+
+.main__education h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.education__post {
+  margin: 20px;
+}
+
+.education__text {
+  margin-top: 20px;
+}
+
+/* main__IT */
+.main__IT {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 40px;
+}
+
+.main__IT h3 {
+  display: flex;
+  justify-content: center;
+}
+/* внешние границы таблицы серого цвета толщиной 1px */
+.table {
+  margin-top: 20px;
+  border: 1px solid grey;
+}
+
+/* границы ячеек первого ряда таблицы */
+th {
+  border: 1px solid grey;
+}
+
+/* границы ячеек тела таблицы */
+td {
+  padding-left: 20px;
+  border: 1px solid grey;
+}
+
+td a:hover {
+  color: red;
+}
+
+/* main__forms */
+.main__forms {
+  margin: 20px 40px;
+  display: flex;
+}
+.main__comment {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 40px;
+}
+
+.main__label {
+  margin-top: 30px;
+  position: relative;
+}
+
+.main__label span {
+  position: absolute;
+  bottom: 50%;
+  left: 2px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+
+.main__input {
+  width: 70vh;
+  height: 40px;
+  border: 2px solid grey;
+}
+.main__label input:not(:placeholder-shown)~span {
+  bottom: 100%;
+  opacity: 1;
+  visibility: visible;
+}
+
+.main__button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 40px
+}
+
+.main__btn {
+  display: inline-block;
+  background: grey;
+  color: black;
+  padding: 13px 40px;
+  text-decoration: none;
+  border-radius: 35px;
+  border: 0px solid #ffffff;
+  cursor: pointer;
+}
+
+.main__btn:hover {
+  background: #9b9b9b;
+}

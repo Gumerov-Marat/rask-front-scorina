@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./clean-style.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Resume</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Резюме</h1>
+    </header>
+    <main class="main">
+      <div class="main__persone">
+        <div class="main__photo">
+          <img src="./assets/img/003020.png" alt="photo">
+        </div>
+        <div class="main__info">
+          <h3>Marat Gumerov / Марат Гумеров</h3>
+          <div class="main__date">
+            <div class="main__element">
+              <img src="./assets/img/pin.svg" alt="location">
+              <span>Беларусь, Гомель</span>
+            </div>
+            <div class="main__element">
+              <img src="./assets/img/Balloon_.svg" alt="data">
+              <span>14 01 1986</span>
+            </div>
+            <div class="main__element">
+              <img src="./assets/img/phone.svg" alt="data">
+              <span> + 375 44 55 828 16</span>
+            </div>
+            <div class="main__element">
+              <div>@</div>
+              <span> gumerovm74@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main__education">
+        <h3>Образование</h3>
+
+        <div class="education__post">
+          <div class="education__date">
+            2000 - 2005
+          </div>
+          <div class="education__text">
+            Средне - специальное.<br /><br /> Россия.<br /> Учреждение: <a href="https://satka.susu.ru/">Саткикнский Горно-керамический Колледж.</a> <br />Факультет: Закрытая подземная разработка полезных ископаемых (Шахтер).
+            </div>
+        </div>
+      </div>
+      <div class="main__IT">
+        <h3>IT - образование</h3>
+        <table class="table">
+          <tr>
+            <th>Название / ссылка</th>
+            <th>Описание (что конкретно изучал)</th>
+          </tr>
+          <!--ряд с ячейками заголовков-->
+          <tr>
+            <td> 2018 <a href="https://javarush.ru/">Javarush</a></td>
+            <td>Изучил основы програмирования на языке Java</td>
+          </tr>
+          <tr>
+            <td>2019 <a href="https://ru.hexlet.io/">Hexlet</a><br />
+                2019 <a href="https://learn.javascript.ru/">Learn JS</a></td>
+            <td>Изучал основы языка JavaScript (4 / 5)</td>
+          </tr>
+           <tr>
+             <td>2020 <a href="https://rs.school/">RS School</a> <br />
+                 2020 <a href="https://webformyself.com/">Webformyself</a> <br />
+                 2020 <a href="https://www.freecodecamp.org/">freecodecamp</a>
+            </td>
+             <td>Углубился в Веб разработку: через онлайн курсы. <br />Познакомился на практике с Webpack NodeJS jQuery React ( 1 из 5)</td>
+           </tr>
+        </table>
+      </div>
+      <div class="main__forms">
+        <div class="main__comment">
+          <label class="main__label">
+            <input class="main__input input__comment" type="text" placeholder="Комментарий">
+            <span>Комментарий</span>
+          </label>
+          <label class="main__label">
+            <input class="main__input input__phone" type="tel" placeholder="Введите номер телефона формата +375XXYYYYYYY" >
+            <span>+375XXYYYYYYY</span>
+          </label>
+        </div>
+        <div class="main__button">
+          <a href="#" class="main__btn">Проверить</a>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
